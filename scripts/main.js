@@ -3,7 +3,7 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src')
     if(mySrc === 'images/mozilla-fox.jpg') {
-    myImage.setAttribute ('src','images/google.jpg');
+    myImage.setAttribute ('src','images/mozilla-fox1.png');
 } else {
     myImage.setAttribute ('src','images/mozilla-fox.jpg');
 }
